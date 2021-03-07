@@ -3,11 +3,10 @@
 using namespace std;
 char matrica[3][3] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 char izazivac = 'X';
-int n;
 void Ispisi()
 {
 	system("cls");
-	cout << "IKS_OKS_IGRICA" << endl;
+	cout << "IKS_OKS_IGRICA \n" << endl;
 	for (int i = 0; i < 3; i++)
 	{
 		for (int j = 0; j < 3; j++)
@@ -15,7 +14,7 @@ void Ispisi()
 			cout << matrica[i][j] << " ";
 		}
 		cout << endl;
-	}
+	}cout<<endl;
 }
 void Unos()
 {
@@ -168,7 +167,7 @@ char Pobednik()
 }
 int main()
 {
-	n = 0;
+	int n = 0;
 	Ispisi();
 	while (1)
 	{
